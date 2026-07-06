@@ -28,11 +28,9 @@ st.set_page_config(
 # -----------------------------
 import os
 
-df = pd.read_csv(
-    os.path.join("data", "cleaned", "Sample - Superstore.csv"),
-    encoding="latin1"
-)
-st.sidebar.header("🔎 Filters")
+file_path = os.path.join("cleaned", "Sample - Superstore.csv")
+
+df = pd.read_csv(file_path, encoding="latin1")
 
 # Region filter
 regions = st.sidebar.multiselect(
