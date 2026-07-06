@@ -25,4 +25,4 @@ An interactive Streamlit dashboard built for analyzing retail sales data with dy
 
 ---
 
-## 📂 Project Structure
+
